@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "regex-tester"
+version = "0.1.0"
+description = "Test regex patterns with multiple inputs"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Viprasol", email = "hello@viprasol.com"}]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+]
+
+dependencies = []
+
+[project.urls]
+Homepage = "https://viprasol.com"
+Repository = "https://github.com/Viprasol-Tech/regex-tester"
+Issues = "https://github.com/Viprasol-Tech/regex-tester/issues"
+
+[tool.setuptools]
+packages = ["regex_tester"]
